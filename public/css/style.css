@@ -1,0 +1,57 @@
+/* Estilos existentes */
+body {
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-item {
+    margin: 15px;
+}
+.product-item img {
+    width: 150px;
+    height: auto;
+}
+.product-item h5 {
+    margin-top: 10px;
+}
+
+/* Nuevos estilos para el menú */
+.navbar-custom {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.navbar-custom .navbar-brand img.shopping-cart-icon {
+    width: 30px !important; /* Ajusta el tamaño del ícono */
+    height: auto !important;
+}
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .nav-link:hover {
+    color: #ddd;
+}
+/* Estilos para centrar las imágenes en el modal */
+.selected-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.selected-products .product-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 10px;
+    text-align: center;
+}
+.selected-products .product-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}

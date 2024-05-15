@@ -1,0 +1,28 @@
+{
+  "name": "desafio_mercado_web",
+  "version": "1.0.0",
+  "description": "\"Una aplicación web para el Mini Market ‘Come Sano, Come Fresco Spa’ que permite visualizar y gestionar la venta de productos en línea.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juana Cortez",
+  "license": "ISC",
+  "keywords": [
+    "express",
+    "handlebars",
+    "web",
+    "server",
+    "e-commerce",
+    "online",
+    "store",
+    "mini",
+    "market"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "jquery": "^3.7.1"
+  }
+}
